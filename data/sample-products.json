@@ -1,0 +1,569 @@
+[
+  {
+    "name": "Floral Summer Dress",
+    "description": "A beautiful floral summer dress perfect for warm days. Made from lightweight, breathable fabric with a flattering fit and floral pattern.",
+    "price": 59.99,
+    "salePrice": 49.99,
+    "onSale": true,
+    "category": "women",
+    "subCategory": "dresses",
+    "brand": "Bloom Fashion",
+    "sku": "WD-12345",
+    "inStock": true,
+    "sizes": [
+      { "name": "XS", "inventory": 5 },
+      { "name": "S", "inventory": 10 },
+      { "name": "M", "inventory": 15 },
+      { "name": "L", "inventory": 8 },
+      { "name": "XL", "inventory": 3 }
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hexCode": "#0000FF",
+        "images": []
+      },
+      {
+        "name": "Pink",
+        "hexCode": "#FFC0CB",
+        "images": []
+      }
+    ],
+    "material": "100% Cotton",
+    "careInstructions": "Machine wash cold, tumble dry low",
+    "sizeGuide": "XS (0-2), S (4-6), M (8-10), L (12-14), XL (16-18)",
+    "featured": true,
+    "newArrival": true,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1550639525-c97d455acf70?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Denim Jacket",
+    "description": "Classic denim jacket with a modern fit. Perfect for layering in any season. Features button closure and multiple pockets.",
+    "price": 79.99,
+    "salePrice": null,
+    "onSale": false,
+    "category": "women",
+    "subCategory": "outerwear",
+    "brand": "Denim Co.",
+    "sku": "WO-67890",
+    "inStock": true,
+    "sizes": [
+      { "name": "S", "inventory": 12 },
+      { "name": "M", "inventory": 18 },
+      { "name": "L", "inventory": 15 },
+      { "name": "XL", "inventory": 10 }
+    ],
+    "colors": [
+      {
+        "name": "Light Blue",
+        "hexCode": "#ADD8E6",
+        "images": []
+      },
+      {
+        "name": "Dark Blue",
+        "hexCode": "#00008B",
+        "images": []
+      }
+    ],
+    "material": "100% Cotton Denim",
+    "careInstructions": "Machine wash cold, line dry",
+    "sizeGuide": "S (4-6), M (8-10), L (12-14), XL (16-18)",
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1544642899-f0d6e5f6ed6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1548435407-2d726cfb9e6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1544642899-f0d6e5f6ed6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Slim Fit Chinos",
+    "description": "Modern slim fit chinos perfect for casual or business casual wear. Made from comfortable stretch cotton with a clean, tailored look.",
+    "price": 49.99,
+    "salePrice": null,
+    "onSale": false,
+    "category": "men",
+    "subCategory": "pants",
+    "brand": "Modern Essentials",
+    "sku": "MP-23456",
+    "inStock": true,
+    "sizes": [
+      { "name": "30x30", "inventory": 8 },
+      { "name": "32x30", "inventory": 12 },
+      { "name": "32x32", "inventory": 15 },
+      { "name": "34x30", "inventory": 10 },
+      { "name": "34x32", "inventory": 8 },
+      { "name": "36x32", "inventory": 5 }
+    ],
+    "colors": [
+      {
+        "name": "Khaki",
+        "hexCode": "#C3B091",
+        "images": []
+      },
+      {
+        "name": "Navy",
+        "hexCode": "#000080",
+        "images": []
+      },
+      {
+        "name": "Olive",
+        "hexCode": "#808000",
+        "images": []
+      }
+    ],
+    "material": "98% Cotton, 2% Elastane",
+    "careInstructions": "Machine wash cold, tumble dry low",
+    "sizeGuide": "Waist x Length in inches",
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": true,
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Oxford Button-Down Shirt",
+    "description": "Classic Oxford button-down shirt made from premium cotton. Features a comfortable regular fit with button-down collar and chest pocket.",
+    "price": 59.99,
+    "salePrice": 44.99,
+    "onSale": true,
+    "category": "men",
+    "subCategory": "shirts",
+    "brand": "Classic Man",
+    "sku": "MS-34567",
+    "inStock": true,
+    "sizes": [
+      { "name": "S", "inventory": 10 },
+      { "name": "M", "inventory": 15 },
+      { "name": "L", "inventory": 20 },
+      { "name": "XL", "inventory": 12 },
+      { "name": "XXL", "inventory": 8 }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hexCode": "#FFFFFF",
+        "images": []
+      },
+      {
+        "name": "Light Blue",
+        "hexCode": "#ADD8E6",
+        "images": []
+      },
+      {
+        "name": "Pink",
+        "hexCode": "#FFC0CB",
+        "images": []
+      }
+    ],
+    "material": "100% Cotton Oxford",
+    "careInstructions": "Machine wash cold, tumble dry low, iron if needed",
+    "sizeGuide": "S (14-14.5), M (15-15.5), L (16-16.5), XL (17-17.5), XXL (18-18.5)",
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": true,
+    "images": [
+      "https://images.unsplash.com/photo-1563630423918-b58f07336ac9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1598961942613-ba897716405b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1563630423918-b58f07336ac9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Kids Dinosaur T-Shirt",
+    "description": "Fun dinosaur print t-shirt for kids. Made from soft, comfortable cotton with a playful design that kids will love.",
+    "price": 24.99,
+    "salePrice": null,
+    "onSale": false,
+    "category": "kids",
+    "subCategory": "boys",
+    "brand": "Little Explorers",
+    "sku": "KB-45678",
+    "inStock": true,
+    "sizes": [
+      { "name": "3T", "inventory": 12 },
+      { "name": "4T", "inventory": 15 },
+      { "name": "5T", "inventory": 10 },
+      { "name": "6", "inventory": 8 },
+      { "name": "7", "inventory": 5 }
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hexCode": "#0000FF",
+        "images": []
+      },
+      {
+        "name": "Green",
+        "hexCode": "#008000",
+        "images": []
+      }
+    ],
+    "material": "100% Cotton",
+    "careInstructions": "Machine wash cold, tumble dry low",
+    "sizeGuide": "3T (3 years), 4T (4 years), 5T (5 years), 6 (6 years), 7 (7 years)",
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1519278409-1f56fdda7fe5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Girls Floral Dress",
+    "description": "Adorable floral dress for girls. Features a comfortable fit with a full skirt and bow detail at the waist.",
+    "price": 34.99,
+    "salePrice": 29.99,
+    "onSale": true,
+    "category": "kids",
+    "subCategory": "girls",
+    "brand": "Little Princess",
+    "sku": "KG-56789",
+    "inStock": true,
+    "sizes": [
+      { "name": "3T", "inventory": 8 },
+      { "name": "4T", "inventory": 12 },
+      { "name": "5T", "inventory": 15 },
+      { "name": "6", "inventory": 10 },
+      { "name": "7", "inventory": 6 }
+    ],
+    "colors": [
+      {
+        "name": "Pink",
+        "hexCode": "#FFC0CB",
+        "images": []
+      },
+      {
+        "name": "Purple",
+        "hexCode": "#800080",
+        "images": []
+      }
+    ],
+    "material": "100% Cotton",
+    "careInstructions": "Machine wash cold, tumble dry low",
+    "sizeGuide": "3T (3 years), 4T (4 years), 5T (5 years), 6 (6 years), 7 (7 years)",
+    "featured": true,
+    "newArrival": true,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1476234251651-f353703a034d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Leather Tote Bag",
+    "description": "Elegant leather tote bag with spacious interior and sturdy handles. Perfect for work, shopping, or everyday use.",
+    "price": 129.99,
+    "salePrice": null,
+    "onSale": false,
+    "category": "accessories",
+    "subCategory": "bags",
+    "brand": "Luxe Leather",
+    "sku": "AB-67890",
+    "inStock": true,
+    "sizes": [
+      { "name": "One Size", "inventory": 25 }
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hexCode": "#000000",
+        "images": []
+      },
+      {
+        "name": "Brown",
+        "hexCode": "#964B00",
+        "images": []
+      },
+      {
+        "name": "Tan",
+        "hexCode": "#D2B48C",
+        "images": []
+      }
+    ],
+    "material": "Genuine Leather",
+    "careInstructions": "Wipe clean with damp cloth, use leather conditioner periodically",
+    "sizeGuide": "Dimensions: 16\"W x 12\"H x 6\"D",
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": true,
+    "images": [
+      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1591561954557-26941169b49e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Statement Necklace",
+    "description": "Bold statement necklace featuring geometric shapes and mixed metals. Perfect for adding interest to any outfit.",
+    "price": 49.99,
+    "salePrice": 39.99,
+    "onSale": true,
+    "category": "accessories",
+    "subCategory": "jewelry",
+    "brand": "Modern Metals",
+    "sku": "AJ-78901",
+    "inStock": true,
+    "sizes": [
+      { "name": "One Size", "inventory": 30 }
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hexCode": "#FFD700",
+        "images": []
+      },
+      {
+        "name": "Silver",
+        "hexCode": "#C0C0C0",
+        "images": []
+      }
+    ],
+    "material": "Mixed Metals, Zinc Alloy",
+    "careInstructions": "Avoid water and perfume, store in jewelry box",
+    "sizeGuide": "Chain length: 18 inches with 2-inch extender",
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1611085583191-a3b181a88401?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Running Shoes",
+    "description": "Lightweight, responsive running shoes with cushioned soles and breathable mesh upper. Perfect for running or training.",
+    "price": 89.99,
+    "salePrice": null,
+    "onSale": false,
+    "category": "shoes",
+    "subCategory": "mens",
+    "brand": "Active Step",
+    "sku": "SM-89012",
+    "inStock": true,
+    "sizes": [
+      { "name": "8", "inventory": 5 },
+      { "name": "9", "inventory": 10 },
+      { "name": "10", "inventory": 15 },
+      { "name": "11", "inventory": 12 },
+      { "name": "12", "inventory": 8 }
+    ],
+    "colors": [
+      {
+        "name": "Black/Red",
+        "hexCode": "#000000",
+        "images": []
+      },
+      {
+        "name": "Blue/White",
+        "hexCode": "#0000FF",
+        "images": []
+      },
+      {
+        "name": "Gray/Neon",
+        "hexCode": "#808080",
+        "images": []
+      }
+    ],
+    "material": "Synthetic Mesh, Rubber Sole",
+    "careInstructions": "Spot clean with mild soap and water, air dry",
+    "sizeGuide": "Fits true to size. Men's US sizing.",
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": true,
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Women's Ankle Boots",
+    "description": "Stylish ankle boots with a comfortable block heel and side zipper. Perfect for everyday wear in fall and winter.",
+    "price": 79.99,
+    "salePrice": 59.99,
+    "onSale": true,
+    "category": "shoes",
+    "subCategory": "womens",
+    "brand": "Urban Step",
+    "sku": "SW-90123",
+    "inStock": true,
+    "sizes": [
+      { "name": "6", "inventory": 8 },
+      { "name": "7", "inventory": 12 },
+      { "name": "8", "inventory": 15 },
+      { "name": "9", "inventory": 10 },
+      { "name": "10", "inventory": 5 }
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hexCode": "#000000",
+        "images": []
+      },
+      {
+        "name": "Brown",
+        "hexCode": "#964B00",
+        "images": []
+      },
+      {
+        "name": "Tan",
+        "hexCode": "#D2B48C",
+        "images": []
+      }
+    ],
+    "material": "Faux Leather, Rubber Sole",
+    "careInstructions": "Wipe clean with damp cloth, use leather conditioner periodically",
+    "sizeGuide": "Fits true to size. Women's US sizing.",
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Graphic Print T-Shirt",
+    "description": "Comfortable cotton t-shirt with a trendy graphic print. Perfect for casual everyday wear.",
+    "price": 29.99,
+    "salePrice": null,
+    "onSale": false,
+    "category": "men",
+    "subCategory": "tshirts",
+    "brand": "Urban Style",
+    "sku": "MT-01234",
+    "inStock": true,
+    "sizes": [
+      { "name": "S", "inventory": 10 },
+      { "name": "M", "inventory": 15 },
+      { "name": "L", "inventory": 20 },
+      { "name": "XL", "inventory": 12 },
+      { "name": "XXL", "inventory": 8 }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hexCode": "#FFFFFF",
+        "images": []
+      },
+      {
+        "name": "Black",
+        "hexCode": "#000000",
+        "images": []
+      },
+      {
+        "name": "Gray",
+        "hexCode": "#808080",
+        "images": []
+      }
+    ],
+    "material": "100% Cotton",
+    "careInstructions": "Machine wash cold, tumble dry low",
+    "sizeGuide": "S (36-38), M (39-41), L (42-44), XL (45-47), XXL (48-50)",
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": true,
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Pleated Midi Skirt",
+    "description": "Elegant pleated midi skirt with an elastic waistband. Versatile piece that can be dressed up or down.",
+    "price": 49.99,
+    "salePrice": null,
+    "onSale": false,
+    "category": "women",
+    "subCategory": "bottoms",
+    "brand": "Elegant Essentials",
+    "sku": "WB-12345",
+    "inStock": true,
+    "sizes": [
+      { "name": "XS", "inventory": 5 },
+      { "name": "S", "inventory": 10 },
+      { "name": "M", "inventory": 15 },
+      { "name": "L", "inventory": 8 },
+      { "name": "XL", "inventory": 3 }
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hexCode": "#000000",
+        "images": []
+      },
+      {
+        "name": "Navy",
+        "hexCode": "#000080",
+        "images": []
+      },
+      {
+        "name": "Burgundy",
+        "hexCode": "#800020",
+        "images": []
+      }
+    ],
+    "material": "95% Polyester, 5% Elastane",
+    "careInstructions": "Machine wash cold, gentle cycle, line dry",
+    "sizeGuide": "XS (0-2), S (4-6), M (8-10), L (12-14), XL (16-18)",
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1551163943-3f7e29e5ed20?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Baby Onesie Set",
+    "description": "Adorable set of 3 baby onesies in cute patterns. Made from soft, comfortable cotton that's gentle on baby's skin.",
+    "price": 34.99,
+    "salePrice": 29.99,
+    "onSale": true,
+    "category": "kids",
+    "subCategory": "babies",
+    "brand": "Tiny Tots",
+    "sku": "KB-23456",
+    "inStock": true,
+    "sizes": [
+      { "name": "0-3M", "inventory": 10 },
+      { "name": "3-6M", "inventory": 15 },
+      { "name": "6-9M", "inventory": 12 },
+      { "name": "9-12M", "inventory": 8 }
+    ],
+    "colors": [
+      {
+        "name": "Multi",
+        "hexCode": "#FFFFFF",
+        "images": []
+      }
+    ],
+    "material": "100% Organic Cotton",
+    "careInstructions": "Machine wash warm, tumble dry low",
+    "sizeGuide": "0-3M (up to 12 lbs), 3-6M (12-16 lbs), 6-9M (16-20 lbs), 9-12M (20-24 lbs)",
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1607242792481-37f27e1901ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1522771930-78848d9293e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  }
+]

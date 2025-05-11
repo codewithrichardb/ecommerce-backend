@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Last Chance - Special Offer Inside!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #f8f9fa;
+    }
+    .logo {
+      max-width: 150px;
+      height: auto;
+    }
+    .content {
+      padding: 20px 0;
+    }
+    .cart-items {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    .cart-items th, .cart-items td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+    .cart-items th {
+      background-color: #f8f9fa;
+    }
+    .item-image {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+    }
+    .totals {
+      width: 100%;
+      margin: 20px 0;
+    }
+    .totals td {
+      padding: 5px 10px;
+    }
+    .totals .label {
+      text-align: right;
+      font-weight: bold;
+    }
+    .totals .value {
+      text-align: right;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .btn-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .coupon {
+      background-color: #f8f9fa;
+      border: 2px dashed #007bff;
+      padding: 20px;
+      margin: 20px 0;
+      text-align: center;
+    }
+    .coupon-code {
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #007bff;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      display: inline-block;
+      margin: 10px 0;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 12px;
+      color: #6c757d;
+      border-top: 1px solid #ddd;
+    }
+    .tracking-pixel {
+      width: 1px;
+      height: 1px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Last Chance - Special Offer Inside!</h1>
+    </div>
+    
+    <div class="content">
+      <p>Hi {{firstName}},</p>
+      
+      <p>We noticed you still have items in your shopping cart. To help you complete your purchase, we're offering you a special discount!</p>
+      
+      {{#if couponCode}}
+      <div class="coupon">
+        <h3>SPECIAL OFFER FOR YOU</h3>
+        {{#if couponType}}
+          {{#if (eq couponType "percentage")}}
+          <p>Get <strong>{{couponValue}}% OFF</strong> your purchase with this coupon:</p>
+          {{else if (eq couponType "fixed")}}
+          <p>Get <strong>${{couponValue}} OFF</strong> your purchase with this coupon:</p>
+          {{else if (eq couponType "free_shipping")}}
+          <p>Get <strong>FREE SHIPPING</strong> on your purchase with this coupon:</p>
+          {{else}}
+          <p>Get a <strong>SPECIAL DISCOUNT</strong> on your purchase with this coupon:</p>
+          {{/if}}
+        {{else}}
+        <p>Get a <strong>SPECIAL DISCOUNT</strong> on your purchase with this coupon:</p>
+        {{/if}}
+        <div class="coupon-code">{{couponCode}}</div>
+        <p>This coupon will be automatically applied when you complete your purchase.</p>
+        {{#if couponExpiry}}
+        <p><small>Expires on: {{couponExpiry}}</small></p>
+        {{/if}}
+      </div>
+      {{/if}}
+      
+      <h3>Your Cart Items:</h3>
+      
+      <table class="cart-items">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each items}}
+          <tr>
+            <td>
+              {{#if image}}
+              <img src="{{image}}" alt="{{name}}" class="item-image">
+              {{/if}}
+              {{name}}
+            </td>
+            <td>{{quantity}}</td>
+            <td>${{total}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+      
+      <table class="totals">
+        <tr>
+          <td class="label">Subtotal:</td>
+          <td class="value">${{subtotal}}</td>
+        </tr>
+        {{#if discount}}
+        <tr>
+          <td class="label">Current Discount:</td>
+          <td class="value">-${{discount}}</td>
+        </tr>
+        {{/if}}
+        <tr>
+          <td class="label">Total:</td>
+          <td class="value">${{total}}</td>
+        </tr>
+        {{#if couponCode}}
+        <tr>
+          <td class="label">With Coupon:</td>
+          <td class="value"><strong>EVEN LOWER!</strong></td>
+        </tr>
+        {{/if}}
+      </table>
+      
+      <div class="btn-container">
+        <a href="{{recoveryUrl}}" class="btn">Complete Your Purchase Now</a>
+      </div>
+      
+      <p>This is your last reminder about these items. Don't miss out on the products you wanted!</p>
+      
+      <p>If you have any questions or need assistance, please don't hesitate to contact our customer support team.</p>
+      
+      <p>Thank you for shopping with us!</p>
+      
+      <p>Best regards,<br>
+      {{storeName}} Team</p>
+    </div>
+    
+    <div class="footer">
+      <p>&copy; {{currentYear}} {{storeName}}. All rights reserved.</p>
+      <p>
+        <a href="{{storeUrl}}">Visit Our Store</a> | 
+        <a href="{{storeUrl}}/unsubscribe">Unsubscribe</a>
+      </p>
+    </div>
+  </div>
+  
+  <img src="{{trackingPixelUrl}}" alt="" class="tracking-pixel">
+</body>
+</html>

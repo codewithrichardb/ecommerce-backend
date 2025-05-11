@@ -1,0 +1,579 @@
+[
+  {
+    "name": "Striped Button-Up Shirt",
+    "description": "Classic striped button-up shirt with a modern fit. Perfect for both casual and semi-formal occasions. Features a comfortable cotton blend fabric.",
+    "price": 54.99,
+    "salePrice": 39.99,
+    "onSale": true,
+    "category": "men",
+    "subCategory": "shirts",
+    "brand": "Modern Essentials",
+    "sku": "MS-45678",
+    "inStock": true,
+    "sizes": [
+      { "name": "S", "inventory": 8 },
+      { "name": "M", "inventory": 12 },
+      { "name": "L", "inventory": 15 },
+      { "name": "XL", "inventory": 10 },
+      { "name": "XXL", "inventory": 5 }
+    ],
+    "colors": [
+      {
+        "name": "Blue/White",
+        "hexCode": "#0000FF",
+        "images": []
+      },
+      {
+        "name": "Black/White",
+        "hexCode": "#000000",
+        "images": []
+      }
+    ],
+    "material": "80% Cotton, 20% Polyester",
+    "careInstructions": "Machine wash cold, tumble dry low, iron if needed",
+    "sizeGuide": "S (14-14.5), M (15-15.5), L (16-16.5), XL (17-17.5), XXL (18-18.5)",
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1598961942613-ba897716405b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1598032895397-b9472444bf93?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1598961942613-ba897716405b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Hooded Sweatshirt",
+    "description": "Comfortable hooded sweatshirt perfect for casual wear or workouts. Features a soft fleece interior and kangaroo pocket.",
+    "price": 49.99,
+    "salePrice": null,
+    "onSale": false,
+    "category": "men",
+    "subCategory": "outerwear",
+    "brand": "Urban Style",
+    "sku": "MO-56789",
+    "inStock": true,
+    "sizes": [
+      { "name": "S", "inventory": 10 },
+      { "name": "M", "inventory": 15 },
+      { "name": "L", "inventory": 20 },
+      { "name": "XL", "inventory": 12 },
+      { "name": "XXL", "inventory": 8 }
+    ],
+    "colors": [
+      {
+        "name": "Gray",
+        "hexCode": "#808080",
+        "images": []
+      },
+      {
+        "name": "Black",
+        "hexCode": "#000000",
+        "images": []
+      },
+      {
+        "name": "Navy",
+        "hexCode": "#000080",
+        "images": []
+      }
+    ],
+    "material": "80% Cotton, 20% Polyester",
+    "careInstructions": "Machine wash cold, tumble dry low",
+    "sizeGuide": "S (36-38), M (39-41), L (42-44), XL (45-47), XXL (48-50)",
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": true,
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1578681994506-b8f463449011?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Distressed Skinny Jeans",
+    "description": "Trendy distressed skinny jeans with a comfortable stretch fit. Features a classic five-pocket design and ankle-length cut.",
+    "price": 69.99,
+    "salePrice": null,
+    "onSale": false,
+    "category": "women",
+    "subCategory": "bottoms",
+    "brand": "Denim Co.",
+    "sku": "WB-67890",
+    "inStock": true,
+    "sizes": [
+      { "name": "24", "inventory": 5 },
+      { "name": "26", "inventory": 10 },
+      { "name": "28", "inventory": 15 },
+      { "name": "30", "inventory": 10 },
+      { "name": "32", "inventory": 5 }
+    ],
+    "colors": [
+      {
+        "name": "Light Blue",
+        "hexCode": "#ADD8E6",
+        "images": []
+      },
+      {
+        "name": "Dark Blue",
+        "hexCode": "#00008B",
+        "images": []
+      },
+      {
+        "name": "Black",
+        "hexCode": "#000000",
+        "images": []
+      }
+    ],
+    "material": "98% Cotton, 2% Elastane",
+    "careInstructions": "Machine wash cold, tumble dry low",
+    "sizeGuide": "24 (00), 26 (2), 28 (4), 30 (6), 32 (8)",
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": true,
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1475178626620-a4d074967452?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Off-Shoulder Blouse",
+    "description": "Elegant off-shoulder blouse with a flowy silhouette. Perfect for casual outings or dressed up for special occasions.",
+    "price": 44.99,
+    "salePrice": 34.99,
+    "onSale": true,
+    "category": "women",
+    "subCategory": "tops",
+    "brand": "Elegant Essentials",
+    "sku": "WT-78901",
+    "inStock": true,
+    "sizes": [
+      { "name": "XS", "inventory": 5 },
+      { "name": "S", "inventory": 10 },
+      { "name": "M", "inventory": 15 },
+      { "name": "L", "inventory": 8 },
+      { "name": "XL", "inventory": 3 }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hexCode": "#FFFFFF",
+        "images": []
+      },
+      {
+        "name": "Black",
+        "hexCode": "#000000",
+        "images": []
+      },
+      {
+        "name": "Blush",
+        "hexCode": "#DE5D83",
+        "images": []
+      }
+    ],
+    "material": "100% Polyester",
+    "careInstructions": "Hand wash cold, line dry",
+    "sizeGuide": "XS (0-2), S (4-6), M (8-10), L (12-14), XL (16-18)",
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1533659828870-95ee305cee3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Boys' Dinosaur Pajama Set",
+    "description": "Fun dinosaur print pajama set for boys. Made from soft, comfortable cotton perfect for a good night's sleep.",
+    "price": 29.99,
+    "salePrice": null,
+    "onSale": false,
+    "category": "kids",
+    "subCategory": "boys",
+    "brand": "Little Dreamers",
+    "sku": "KB-89012",
+    "inStock": true,
+    "sizes": [
+      { "name": "2T", "inventory": 8 },
+      { "name": "3T", "inventory": 12 },
+      { "name": "4T", "inventory": 15 },
+      { "name": "5T", "inventory": 10 },
+      { "name": "6", "inventory": 5 }
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hexCode": "#0000FF",
+        "images": []
+      },
+      {
+        "name": "Green",
+        "hexCode": "#008000",
+        "images": []
+      }
+    ],
+    "material": "100% Cotton",
+    "careInstructions": "Machine wash cold, tumble dry low",
+    "sizeGuide": "2T (2 years), 3T (3 years), 4T (4 years), 5T (5 years), 6 (6 years)",
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1519278409-1f56fdda7fe5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1519278409-1f56fdda7fe5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1519278409-1f56fdda7fe5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Girls' Unicorn Backpack",
+    "description": "Adorable unicorn-themed backpack for girls. Features multiple compartments, padded straps, and glitter accents.",
+    "price": 34.99,
+    "salePrice": 24.99,
+    "onSale": true,
+    "category": "kids",
+    "subCategory": "accessories",
+    "brand": "Little Princess",
+    "sku": "KA-90123",
+    "inStock": true,
+    "sizes": [
+      { "name": "One Size", "inventory": 25 }
+    ],
+    "colors": [
+      {
+        "name": "Pink",
+        "hexCode": "#FFC0CB",
+        "images": []
+      },
+      {
+        "name": "Purple",
+        "hexCode": "#800080",
+        "images": []
+      }
+    ],
+    "material": "Polyester with PVC accents",
+    "careInstructions": "Spot clean with damp cloth",
+    "sizeGuide": "Dimensions: 12\"H x 10\"W x 4\"D",
+    "featured": true,
+    "newArrival": true,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1617791160505-6f00504e3519?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1617791160505-6f00504e3519?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1617791160505-6f00504e3519?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Aviator Sunglasses",
+    "description": "Classic aviator sunglasses with UV protection. Features metal frames and polarized lenses for reduced glare.",
+    "price": 79.99,
+    "salePrice": null,
+    "onSale": false,
+    "category": "accessories",
+    "subCategory": "eyewear",
+    "brand": "Urban Style",
+    "sku": "AE-01234",
+    "inStock": true,
+    "sizes": [
+      { "name": "One Size", "inventory": 30 }
+    ],
+    "colors": [
+      {
+        "name": "Gold/Green",
+        "hexCode": "#FFD700",
+        "images": []
+      },
+      {
+        "name": "Silver/Blue",
+        "hexCode": "#C0C0C0",
+        "images": []
+      },
+      {
+        "name": "Black/Black",
+        "hexCode": "#000000",
+        "images": []
+      }
+    ],
+    "material": "Metal frames, Polycarbonate lenses",
+    "careInstructions": "Clean with microfiber cloth, store in case when not in use",
+    "sizeGuide": "Lens width: 58mm, Bridge width: 14mm, Temple length: 135mm",
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": true,
+    "images": [
+      "https://images.unsplash.com/photo-1577803645773-f96470509666?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1577803645773-f96470509666?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Leather Wallet",
+    "description": "Premium leather wallet with multiple card slots and bill compartments. Features RFID blocking technology for security.",
+    "price": 49.99,
+    "salePrice": 39.99,
+    "onSale": true,
+    "category": "accessories",
+    "subCategory": "wallets",
+    "brand": "Luxe Leather",
+    "sku": "AW-12345",
+    "inStock": true,
+    "sizes": [
+      { "name": "One Size", "inventory": 25 }
+    ],
+    "colors": [
+      {
+        "name": "Brown",
+        "hexCode": "#964B00",
+        "images": []
+      },
+      {
+        "name": "Black",
+        "hexCode": "#000000",
+        "images": []
+      },
+      {
+        "name": "Tan",
+        "hexCode": "#D2B48C",
+        "images": []
+      }
+    ],
+    "material": "Genuine Leather",
+    "careInstructions": "Wipe clean with damp cloth, use leather conditioner periodically",
+    "sizeGuide": "Dimensions: 4.5\"W x 3.5\"H x 0.75\"D",
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1627123424574-724758594e93?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1606503825008-909a67e63c3d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1627123424574-724758594e93?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Canvas Slip-On Sneakers",
+    "description": "Comfortable canvas slip-on sneakers perfect for casual wear. Features elastic side gores and cushioned insoles.",
+    "price": 39.99,
+    "salePrice": null,
+    "onSale": false,
+    "category": "shoes",
+    "subCategory": "casual",
+    "brand": "Comfort Step",
+    "sku": "SC-23456",
+    "inStock": true,
+    "sizes": [
+      { "name": "7", "inventory": 5 },
+      { "name": "8", "inventory": 10 },
+      { "name": "9", "inventory": 15 },
+      { "name": "10", "inventory": 12 },
+      { "name": "11", "inventory": 8 }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hexCode": "#FFFFFF",
+        "images": []
+      },
+      {
+        "name": "Black",
+        "hexCode": "#000000",
+        "images": []
+      },
+      {
+        "name": "Navy",
+        "hexCode": "#000080",
+        "images": []
+      }
+    ],
+    "material": "Canvas upper, Rubber sole",
+    "careInstructions": "Spot clean with mild soap and water, air dry",
+    "sizeGuide": "Fits true to size. Men's US sizing.",
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": true,
+    "images": [
+      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1465453869711-7e174808ace9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Platform Sandals",
+    "description": "Trendy platform sandals with ankle straps. Perfect for adding height while maintaining comfort.",
+    "price": 59.99,
+    "salePrice": 44.99,
+    "onSale": true,
+    "category": "shoes",
+    "subCategory": "womens",
+    "brand": "Urban Step",
+    "sku": "SW-34567",
+    "inStock": true,
+    "sizes": [
+      { "name": "6", "inventory": 8 },
+      { "name": "7", "inventory": 12 },
+      { "name": "8", "inventory": 15 },
+      { "name": "9", "inventory": 10 },
+      { "name": "10", "inventory": 5 }
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hexCode": "#000000",
+        "images": []
+      },
+      {
+        "name": "Tan",
+        "hexCode": "#D2B48C",
+        "images": []
+      },
+      {
+        "name": "White",
+        "hexCode": "#FFFFFF",
+        "images": []
+      }
+    ],
+    "material": "Faux Leather, Rubber Sole",
+    "careInstructions": "Wipe clean with damp cloth",
+    "sizeGuide": "Fits true to size. Women's US sizing.",
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1562273138-f46be4ebdf33?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1562273138-f46be4ebdf33?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Kids' Light-Up Sneakers",
+    "description": "Fun light-up sneakers for kids. Features LED lights in the soles that light up with each step.",
+    "price": 44.99,
+    "salePrice": null,
+    "onSale": false,
+    "category": "shoes",
+    "subCategory": "kids",
+    "brand": "Little Steps",
+    "sku": "SK-45678",
+    "inStock": true,
+    "sizes": [
+      { "name": "10", "inventory": 8 },
+      { "name": "11", "inventory": 12 },
+      { "name": "12", "inventory": 15 },
+      { "name": "13", "inventory": 10 },
+      { "name": "1", "inventory": 8 },
+      { "name": "2", "inventory": 5 }
+    ],
+    "colors": [
+      {
+        "name": "Black/Multi",
+        "hexCode": "#000000",
+        "images": []
+      },
+      {
+        "name": "Pink/Multi",
+        "hexCode": "#FFC0CB",
+        "images": []
+      },
+      {
+        "name": "Blue/Multi",
+        "hexCode": "#0000FF",
+        "images": []
+      }
+    ],
+    "material": "Synthetic upper, Rubber sole",
+    "careInstructions": "Wipe clean with damp cloth, do not submerge in water",
+    "sizeGuide": "Kids' US sizing. 10-13 (Toddler), 1-2 (Little Kid)",
+    "featured": true,
+    "newArrival": true,
+    "bestSeller": false,
+    "images": [
+      "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Wireless Bluetooth Earbuds",
+    "description": "High-quality wireless Bluetooth earbuds with charging case. Features touch controls and long battery life.",
+    "price": 89.99,
+    "salePrice": 69.99,
+    "onSale": true,
+    "category": "accessories",
+    "subCategory": "electronics",
+    "brand": "Tech Essentials",
+    "sku": "AE-56789",
+    "inStock": true,
+    "sizes": [
+      { "name": "One Size", "inventory": 30 }
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hexCode": "#000000",
+        "images": []
+      },
+      {
+        "name": "White",
+        "hexCode": "#FFFFFF",
+        "images": []
+      }
+    ],
+    "material": "Plastic, Silicone ear tips",
+    "careInstructions": "Clean with dry cloth, store in case when not in use",
+    "sizeGuide": "Includes multiple ear tip sizes for perfect fit",
+    "featured": true,
+    "newArrival": true,
+    "bestSeller": true,
+    "images": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1606741965509-717b9fdd6549?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "name": "Knit Beanie Hat",
+    "description": "Warm knit beanie hat perfect for cold weather. Features a soft, comfortable fit with a stylish cuffed design.",
+    "price": 24.99,
+    "salePrice": null,
+    "onSale": false,
+    "category": "accessories",
+    "subCategory": "hats",
+    "brand": "Winter Essentials",
+    "sku": "AH-67890",
+    "inStock": true,
+    "sizes": [
+      { "name": "One Size", "inventory": 40 }
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hexCode": "#000000",
+        "images": []
+      },
+      {
+        "name": "Gray",
+        "hexCode": "#808080",
+        "images": []
+      },
+      {
+        "name": "Navy",
+        "hexCode": "#000080",
+        "images": []
+      },
+      {
+        "name": "Burgundy",
+        "hexCode": "#800020",
+        "images": []
+      }
+    ],
+    "material": "100% Acrylic",
+    "careInstructions": "Hand wash cold, lay flat to dry",
+    "sizeGuide": "One size fits most adults",
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": true,
+    "images": [
+      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1510598969022-c4c6c5d05769?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+  }
+]
